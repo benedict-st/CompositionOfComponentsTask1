@@ -12,10 +12,10 @@ const Counter = (props) => {
   };
 
   const handleIncrement = () => {
-    props.onHandleIncrement(props.id, props.value);
+    props.onHandleIncrement(props.id, props.value+1);
   };
   const handleDecrement = () => {
-    props.onHandleIncrement(props.id, props.value);
+    props.onHandleIncrement(props.id, props.value-1);
   };
 
   return (
